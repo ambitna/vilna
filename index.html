@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vilna Space</title>
+  <meta name="description"
+    content="This site developed by Marina Prisnyak. She is Frontend-Developer and makes sites for Ukrainians companies." />
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Open+Sans:wght@300&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="img/vi.ico">
+
+</head>
+
+<body>
+
+  <div id="img">
+  </div>
+
+
+  <div class="content">
+
+    <div class="one name" style="display:block;">
+      <p>Це місце українських людей, які мають свій сайт з характером на
+      <strong> vilna.space </strong> .   </br>
+      Бо українці мають бути відомими. </p>
+      <div class="logo">
+      </div>
+    <p> Ми допомагаємо вільним людям сталевої держави голосно і впевнено розповідати про свої компанії. Цебто, в тому
+      числі завдяки нам у людей та компаній починають зявлятись малі та великі сайти, які зручно читати в усіх частинах
+      планети. </p>
+    </div>
+  <div class="two name list notice" style="display:none;">
+    <p> Що пропонуємо:</p>
+  <ul>  
+      <li>Визначення цінностей, сенсів, вражень, щоб створити сильний впізнаваний бренд</li>
+      <li>Дизайн (UI/UX/Interaction, графічний)</li>
+      <li>Маркетинг (репутація, тексти, SMM)</li>
+      <li>Розробка сайту твого розміру під твої потреби (верстка, адаптація cms). </li>
+      <li>Розміщення сайту на субдомені вільної країни vilna.space</li>
+      <li>Технічна підтримка сайту та супровід оновлень</li>
+    </ul>
+    <form>
+      <button type="submit" formaction="https://forms.gle/E3qWw1K78qV8YVck9">Хочу свій сайт</button>
+   </form>
+  </div>
+  <div class="three name" style="display:none;">
+    <div class="logo2">
+    </div>
+  </br>
+</br>
+    <p>Ідея та розробка:</br>
+       Марися Прісняк-Ряба </p>
+    <p>Фото: Сашко Стародубцев </br>
+    </br>(перезавантажте сторінку, і побачите більше фото вільної та красивої України)
+   </p>
+  </div>
+</br>
+ <a class="dali" href="#"> > </a>
+  </div>
+
+  <script src="vilni.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+ function setRandomImage(){
+  const random = Math.floor(Math.random() * 18) +1;
+  const body = document.getElementsByTagName('body');
+  console.log(body);
+body[0].style.backgroundImage = "url(img/ukraine"+ random +".png)"; 
+}
+setRandomImage();
+  </script>
+</html>
